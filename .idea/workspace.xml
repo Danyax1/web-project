@@ -5,37 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c83f0ba-fccb-42df-be53-078ce35a96c9" name="Changes" comment="creted React project">
-      <change afterPath="$PROJECT_DIR$/.idea/Web_final_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-final-project/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-final-project/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-final-project/src/components/ItemList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Danyax1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Danyax1/web-project",
+    "accountId": "a1ad09e8-c179-40d8-b730-c3425c74336d"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -47,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.App.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -59,6 +66,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\WebstormProjects\Web_final_project\my-final-project\src\components" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/my-final-project/src/App.js" working-dir="$PROJECT_DIR$/my-final-project/src">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.App.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750184917629</updated>
-      <workItem from="1750184918688" duration="746000" />
+      <workItem from="1750184918688" duration="2512000" />
     </task>
     <task id="LOCAL-00001" summary="creted React project">
       <option name="closed" value="true" />
@@ -83,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750185640963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creted React project">
+      <option name="closed" value="true" />
+      <created>1750185699435</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750185699435</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

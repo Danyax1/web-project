@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Title 1",
+      "description": "some small text",
+      "details": "big very very very detailed text"
+    },
+    {
+      "id": 2,
+      "title": "Title 2",
+      "description": "another one",
+      "details": "some additional info to read bla lba bla"
+    }
+  ]
+}
