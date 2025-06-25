@@ -8,7 +8,7 @@ function ItemList() {
 
     useEffect(() => {
         fetchItems();
-        const interval = setInterval(fetchItems, 30000); // AJAX оновлення
+        const interval = setInterval(fetchItems, 30000);
         return () => clearInterval(interval);
     }, []);
 

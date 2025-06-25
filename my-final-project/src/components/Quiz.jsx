@@ -38,8 +38,6 @@ function Quiz() {
         setResult(answer === question.correct ? " Правильно!" : " Неправильно");
     };
 
-    if (!question) return <div className="text-center">Завантаження...</div>;
-
     return (
         <div className="container my-5" style={{ maxWidth: "600px" }}>
             <h4 className="mb-4 text-primary">Вікторина</h4>

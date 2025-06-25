@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c83f0ba-fccb-42df-be53-078ce35a96c9" name="Changes" comment="bug fixing">
-      <change afterPath="$PROJECT_DIR$/my-final-project/src/components/Quiz.jsx" afterDir="false" />
+    <list default="true" id="1c83f0ba-fccb-42df-be53-078ce35a96c9" name="Changes" comment="adding quiz">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-final-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-final-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-final-project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/src/components/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/src/components/ItemList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/src/components/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/src/components/LoginForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +34,12 @@
     &quot;assignee&quot;: &quot;Danyax1&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Danyax1/web-project.git",
-    "accountId": "a1ad09e8-c179-40d8-b730-c3425c74336d"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Danyax1/web-project.git&quot;,
+    &quot;accountId&quot;: &quot;a1ad09e8-c179-40d8-b730-c3425c74336d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -47,23 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.App.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\WebstormProjects\Web_final_project\my-final-project\src\components" />
@@ -95,6 +96,7 @@
       <updated>1750184917629</updated>
       <workItem from="1750184918688" duration="2865000" />
       <workItem from="1750787674716" duration="1130000" />
+      <workItem from="1750864433679" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="creted React project">
       <option name="closed" value="true" />
@@ -128,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750187634857</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding quiz">
+      <option name="closed" value="true" />
+      <created>1750864479747</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750864479747</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +148,7 @@
     <MESSAGE value="creted React project" />
     <MESSAGE value="first working prototype" />
     <MESSAGE value="bug fixing" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fixing" />
+    <MESSAGE value="adding quiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding quiz" />
   </component>
 </project>
