@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c83f0ba-fccb-42df-be53-078ce35a96c9" name="Changes" comment="bug fixing">
-      <change afterPath="$PROJECT_DIR$/my-final-project/src/components/LoginForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-final-project/src/components/Quiz.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-final-project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,27 +20,28 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Danyax1"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Danyax1&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/Danyax1/web-project",
+    "url": "https://github.com/Danyax1/web-project.git",
     "accountId": "a1ad09e8-c179-40d8-b730-c3425c74336d"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2yeAyI131RI9j4cMUgMW3ylqSBq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,6 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -90,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1750184917629</updated>
       <workItem from="1750184918688" duration="2865000" />
+      <workItem from="1750787674716" duration="1130000" />
     </task>
     <task id="LOCAL-00001" summary="creted React project">
       <option name="closed" value="true" />

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import LoginForm from "./components/LoginForm";
 import ItemList from "./components/ItemList";
+import Quiz from "./components/Quiz";
 
 function App() {
     const [user, setUser] = useState(null);
@@ -12,10 +13,14 @@ function App() {
             </header>
 
             {user ? (
-                <div className="container">
-                    <p className="text-end">Have a nice day, {user}!</p>
-                    <ItemList />
-                </div>
+                <>
+                    <div className="container">
+                        <p className="text-end">Вітаю, {user}!</p>
+                        <ItemList />
+                        <hr className="my-5" />
+                        <Quiz />
+                    </div>
+                </>
             ) : (
                 <LoginForm onLogin={setUser} />
             )}
@@ -24,3 +29,4 @@ function App() {
 }
 
 export default App;
+
