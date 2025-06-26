@@ -29,7 +29,7 @@ function LoginForm({ onLogin }) {
 
     return (
         <div className="container mt-5" style={{ maxWidth: "400px" }}>
-            <h3 className="text-center mb-4">Вхід</h3>
+            <h3 className="text-center mb-4">Sign in</h3>
             <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                     <label className="form-label">Login</label>

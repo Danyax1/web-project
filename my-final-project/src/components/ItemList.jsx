@@ -8,7 +8,7 @@ function ItemList() {
 
     useEffect(() => {
         fetchItems();
-        const interval = setInterval(fetchItems, 30000);
+        const interval = setInterval(fetchItems, 10000);
         return () => clearInterval(interval);
     }, []);
 

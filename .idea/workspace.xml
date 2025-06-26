@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c83f0ba-fccb-42df-be53-078ce35a96c9" name="Changes" comment="polishing">
-      <change afterPath="$PROJECT_DIR$/my-final-project/src/components/ItemList.css" afterDir="false" />
+    <list default="true" id="1c83f0ba-fccb-42df-be53-078ce35a96c9" name="Changes" comment="adding more context">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-final-project/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-final-project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-final-project/src/components/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/src/components/ItemList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-final-project/src/components/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/src/components/LoginForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-final-project/src/components/Quiz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/src/components/Quiz.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +95,7 @@
       <workItem from="1750184918688" duration="2865000" />
       <workItem from="1750787674716" duration="1130000" />
       <workItem from="1750864433679" duration="311000" />
-      <workItem from="1750960986618" duration="3509000" />
+      <workItem from="1750960986618" duration="3727000" />
     </task>
     <task id="LOCAL-00001" summary="creted React project">
       <option name="closed" value="true" />
@@ -156,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750968178252</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding more context">
+      <option name="closed" value="true" />
+      <created>1750969317715</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750969317715</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +174,7 @@
     <MESSAGE value="adding quiz" />
     <MESSAGE value="Revert &quot;polishing&quot;&#10;&#10;This reverts commit eaaaf6b4231f55a99fca57c0cbafe601b5023b5d.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="polishing" />
-    <option name="LAST_COMMIT_MESSAGE" value="polishing" />
+    <MESSAGE value="adding more context" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding more context" />
   </component>
 </project>
