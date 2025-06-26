@@ -8,20 +8,17 @@ function LoginForm({ onLogin }) {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // Валідація
         if (!username.trim() || !password.trim()) {
-            setError("Заповни поля");
+            setError("Пусті поля");
             return;
         }
 
-        // Простий захист (тільки дозволені символи)
         const regex = /^[a-zA-Z0-9_@.-]{3,}$/;
         if (!regex.test(username) || !regex.test(password)) {
-            setError("Недопустимі символи в логіні або паролі");
+            setError("Недопустимі символи");
             return;
         }
 
-        // Імітація успішного входу
         if (username === "admin" && password === "1234") {
             setError("");
             onLogin(username);

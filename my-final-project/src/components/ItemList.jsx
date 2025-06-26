@@ -8,7 +8,7 @@ function ItemList() {
 
     useEffect(() => {
         fetchItems();
-        const interval = setInterval(fetchItems, 30000); // AJAX оновлення
+        const interval = setInterval(fetchItems, 30000); // AJAX
         return () => clearInterval(interval);
     }, []);
 
@@ -17,7 +17,7 @@ function ItemList() {
             const res = await axios.get("http://localhost:3001/items");
             setItems(res.data);
         } catch (err) {
-            console.error("Помилка при отриманні даних:", err);
+            console.error("Error:", err);
         }
     };
 
