@@ -17,7 +17,7 @@ function ItemList() {
             const res = await axios.get("http://localhost:3001/items");
             setItems(res.data);
         } catch (err) {
-            console.error("Помилка при отриманні даних:", err);
+            console.error("Error while getting data from database:", err);
         }
     };
 

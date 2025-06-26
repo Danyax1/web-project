@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c83f0ba-fccb-42df-be53-078ce35a96c9" name="Changes" comment="adding more context">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-final-project/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/db.json" afterDir="false" />
+    <list default="true" id="1c83f0ba-fccb-42df-be53-078ce35a96c9" name="Changes" comment="polishing for the last time">
       <change beforePath="$PROJECT_DIR$/my-final-project/src/components/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/src/components/ItemList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-final-project/src/components/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/src/components/LoginForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,23 +43,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.App.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\WebstormProjects\Web_final_project\my-final-project\src\components" />
@@ -95,7 +93,7 @@
       <workItem from="1750184918688" duration="2865000" />
       <workItem from="1750787674716" duration="1130000" />
       <workItem from="1750864433679" duration="311000" />
-      <workItem from="1750960986618" duration="3727000" />
+      <workItem from="1750960986618" duration="3766000" />
     </task>
     <task id="LOCAL-00001" summary="creted React project">
       <option name="closed" value="true" />
@@ -161,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750969317715</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="polishing for the last time">
+      <option name="closed" value="true" />
+      <created>1750969541739</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750969541739</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +181,7 @@
     <MESSAGE value="Revert &quot;polishing&quot;&#10;&#10;This reverts commit eaaaf6b4231f55a99fca57c0cbafe601b5023b5d.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="polishing" />
     <MESSAGE value="adding more context" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding more context" />
+    <MESSAGE value="polishing for the last time" />
+    <option name="LAST_COMMIT_MESSAGE" value="polishing for the last time" />
   </component>
 </project>
