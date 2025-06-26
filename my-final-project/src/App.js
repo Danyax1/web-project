@@ -9,13 +9,13 @@ function App() {
     return (
         <div>
             <header className="bg-dark text-white text-center py-4 mb-4">
-                <h1>Фінальний веб-проєкт</h1>
+                <h1>Final Web Project</h1>
             </header>
 
             {user ? (
                 <>
                     <div className="container">
-                        <p className="text-end">Вітаю, {user}!</p>
+                        <p className="text-end">Welcome, {user}!</p>
                         <ItemList />
                         <hr className="my-5" />
                         <Quiz />

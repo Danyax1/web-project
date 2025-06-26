@@ -9,13 +9,13 @@ function LoginForm({ onLogin }) {
         e.preventDefault();
 
         if (!username.trim() || !password.trim()) {
-            setError("Пусті поля");
+            setError("Empty fields");
             return;
         }
 
         const regex = /^[a-zA-Z0-9_@.-]{3,}$/;
         if (!regex.test(username) || !regex.test(password)) {
-            setError("Недопустимі символи");
+            setError("Bad symbols");
             return;
         }
 
@@ -23,7 +23,7 @@ function LoginForm({ onLogin }) {
             setError("");
             onLogin(username);
         } else {
-            setError("Невірний логін або пароль");
+            setError("Wrong password or login");
         }
     };
 
@@ -32,28 +32,28 @@ function LoginForm({ onLogin }) {
             <h3 className="text-center mb-4">Вхід</h3>
             <form onSubmit={handleSubmit}>
                 <div className="mb-3">
-                    <label className="form-label">Логін</label>
+                    <label className="form-label">Login</label>
                     <input
                         type="text"
                         className="form-control"
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
-                        placeholder="Введіть логін"
+                        placeholder="Enter login"
                     />
                 </div>
                 <div className="mb-3">
-                    <label className="form-label">Пароль</label>
+                    <label className="form-label">Password</label>
                     <input
                         type="password"
                         className="form-control"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
-                        placeholder="Введіть пароль"
+                        placeholder="Enter password"
                     />
                 </div>
                 {error && <div className="alert alert-danger">{error}</div>}
                 <button type="submit" className="btn btn-primary w-100">
-                    Увійти
+                    Sigh in
                 </button>
             </form>
         </div>

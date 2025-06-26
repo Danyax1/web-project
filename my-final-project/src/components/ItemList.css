@@ -1,0 +1,12 @@
+.details-container {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.7s ease, opacity 0.7s ease;
+}
+
+.details-container.open {
+    max-height: 500px;
+    opacity: 1;
+}
+

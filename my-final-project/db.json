@@ -2,15 +2,17 @@
   "items": [
     {
       "id": 1,
-      "title": "Title 1",
-      "description": "some small text",
-      "details": "big very very very detailed text"
+      "title": "Cat",
+      "shortDescription": "Муркотливий улюбленець",
+      "fullDescription": "Cats are graceful, independent, and very cute pets. They often become true members of the family.",
+      "image": "/images/cat.jpg"
     },
     {
       "id": 2,
-      "title": "Title 2",
-      "description": "another one",
-      "details": "some additional info to read bla lba bla"
+      "title": "Dog",
+      "shortDescription": "Best human's friend",
+      "fullDescription": "Dogs are loyal, friendly, and active animals. They get along great with people and love to go for walks.",
+      "image": "/images/dog.jpg"
     }
   ]
 }

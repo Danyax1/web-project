@@ -29,20 +29,20 @@ function Quiz() {
             setSelected("");
             setResult("");
         } catch (err) {
-            console.error("Не вдалося завантажити питання", err);
+            console.error("", err);
         }
     };
 
     const handleAnswer = (answer) => {
         setSelected(answer);
-        setResult(answer === question.correct ? " Правильно!" : " Неправильно");
+        setResult(answer === question.correct ? " Correct!" : " Wrong answer");
     };
 
-    if (!question) return <div className="text-center">Завантаження...</div>;
+    if (!question) return <div className="text-center">Loading...</div>;
 
     return (
         <div className="container my-5" style={{ maxWidth: "600px" }}>
-            <h4 className="mb-4 text-primary">Вікторина</h4>
+            <h4 className="mb-4 text-primary">Quiz</h4>
             <p className="mb-3 fw-bold">{he.decode(question.question)}</p>
 
             <div className="list-group">
@@ -74,7 +74,7 @@ function Quiz() {
 
             {selected && (
                 <button className="btn btn-secondary mt-3" onClick={fetchQuestion}>
-                    Наступне питання
+                    Next Question
                 </button>
             )}
         </div>
