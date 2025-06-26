@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c83f0ba-fccb-42df-be53-078ce35a96c9" name="Changes" comment="polishing">
+    <list default="true" id="1c83f0ba-fccb-42df-be53-078ce35a96c9" name="Changes" comment="adding quiz">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/src/components/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/src/components/ItemList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/src/components/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-final-project/src/components/LoginForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-final-project/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +40,6 @@
     &quot;accountId&quot;: &quot;a1ad09e8-c179-40d8-b730-c3425c74336d&quot;
   }
 }</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -94,8 +96,7 @@
       <updated>1750184917629</updated>
       <workItem from="1750184918688" duration="2865000" />
       <workItem from="1750787674716" duration="1130000" />
-      <workItem from="1750864433679" duration="1839000" />
-      <workItem from="1750921289112" duration="1138000" />
+      <workItem from="1750864433679" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="creted React project">
       <option name="closed" value="true" />
@@ -137,15 +138,7 @@
       <option name="project" value="LOCAL" />
       <updated>1750864479747</updated>
     </task>
-    <task id="LOCAL-00006" summary="polishing">
-      <option name="closed" value="true" />
-      <created>1750865076294</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1750865076294</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +149,6 @@
     <MESSAGE value="first working prototype" />
     <MESSAGE value="bug fixing" />
     <MESSAGE value="adding quiz" />
-    <MESSAGE value="polishing" />
-    <option name="LAST_COMMIT_MESSAGE" value="polishing" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding quiz" />
   </component>
 </project>
